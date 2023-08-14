@@ -1,0 +1,30 @@
+{
+  "name": "batch-rename-file",
+  "version": "1.0.0",
+  "description": "基于node的批量重命名工具",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx ./index.ts ",
+    "build": "rm -rf ./dist && node ./esbuild.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rename",
+    "file",
+    "batch"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@esbuild/darwin-arm64": "^0.17.19",
+    "@esbuild/darwin-x64": "^0.19.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.4.10",
+    "esbuild": "0.17.19",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^3.0.2"
+  }
+}
