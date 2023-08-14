@@ -1,7 +1,7 @@
 {
   "name": "batch-rename-file",
   "version": "1.0.0",
-  "description": "基于node的批量重命名工具",
+  "description": "基于node的简易批量重命名工具",
   "main": "dist/index.js",
   "scripts": {
     "start": "tsx ./index.ts ",
@@ -9,11 +9,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "node",
     "rename",
     "file",
     "batch"
   ],
-  "author": "",
+  "author": "skzhangyawuzhua",
   "license": "ISC",
   "devDependencies": {
     "@esbuild/darwin-arm64": "^0.17.19",
