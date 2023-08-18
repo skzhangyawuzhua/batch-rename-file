@@ -73,7 +73,7 @@ const main = async () => {
 
         const extension = file.match(extensionRule);
 
-        console.log(`匹配到的扩展名: ${extension}`);
+        // console.log(`匹配到的扩展名: ${extension}`);
 
         fs.renameSync(
           filePath,

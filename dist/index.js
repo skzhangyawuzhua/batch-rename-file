@@ -14403,7 +14403,6 @@ var main = () => __async(exports, null, function* () {
       if (match) {
         console.log(`\u5339\u914D\u5230\u7684\u96C6\u6570: ${match[subRule]}`);
         const extension = file.match(extensionRule);
-        console.log(`\u5339\u914D\u5230\u7684\u6269\u5C55\u540D: ${extension}`);
         fs.renameSync(
           filePath,
           path.resolve(dir, `${basename}.${match[subRule]}.${extension}`)
